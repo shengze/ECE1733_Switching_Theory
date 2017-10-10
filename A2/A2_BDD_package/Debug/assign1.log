@@ -1,0 +1,48 @@
+﻿Build started 2017/4/6 星期四 下午 22:29:53.
+     1>Project "F:\177777\A2_robdd_package\starter_kit\assign1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\assign1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt assign1.c
+         assign1.c
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(142): warning C4101: 'finalCount' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(142): warning C4101: 'PIn' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(149): warning C4101: 'PI' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(150): warning C4101: 'PIno' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(132): warning C4101: 'k' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(130): warning C4101: 'testj' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(130): warning C4101: 'testi' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(132): warning C4101: 'note' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(134): warning C4101: 'PIcount' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(134): warning C4101: 'newmem' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(151): warning C4101: 'finalPI' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(142): warning C4101: 'i2' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(259): warning C4101: 'stop' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(259): warning C4101: 'start' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(264): warning C4101: 'testj' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(264): warning C4101: 'testi' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(263): warning C4101: 'level2' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(260): warning C4101: 'duration' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(731): warning C4101: 'testj' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(731): warning C4101: 'testi' : unreferenced local variable
+     1>f:\177777\a2_robdd_package\starter_kit\assign1.c(732): warning C4101: 'jj' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\assign1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\assign1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\assign1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\assign1.lib" /MACHINE:X86 Debug\blif_parser.obj
+         Debug\blif_parser.tab.obj
+         Debug\assign1.obj
+         Debug\blif_reader.obj
+         Debug\common_types.obj
+         Debug\cubical_function_representation.obj
+         assign1.vcxproj -> F:\177777\A2_robdd_package\starter_kit\Debug\assign1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"F:\177777\A2_robdd_package\starter_kit\Debug\assign1.exe.manifest" /manifest Debug\assign1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\assign1.unsuccessfulbuild".
+         Touching "Debug\assign1.lastbuildstate".
+     1>Done Building Project "F:\177777\A2_robdd_package\starter_kit\assign1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.79

@@ -1,0 +1,97 @@
+.model top
+.inputs a b c d e h i j k l m n
+.outputs f g f1 f2 f3
+
+#Example 3 UNSAT
+#.names a f
+#1 1
+
+#.names a b c f
+#0 1
+
+#Example 2 SAT
+#.names a b c d e h i j k l m n f
+#1----------- 1
+#---1-------- 1
+
+#.names a b c d e h i j k l m n f
+#1----------- 1
+#--0--------- 1
+#-------0---- 1
+
+#.names a b c d e h i j k l m n f
+#1----------- 1
+#-------1---- 1
+#-----------1 1
+
+#.names a b c d e h i j k l m n f
+#-1---------- 1
+#----------1- 1
+
+#.names a b c d e h i j k l m n f
+#--0--------- 1
+#------0----- 1
+#--------1--- 1
+
+#.names a b c d e h i j k l m n f
+#------0----- 1
+#-------1---- 1
+#--------0--- 1
+
+#.names a b c d e h i j k l m n f
+#--0--------- 1
+#------1----- 1
+#---------0-- 1
+
+#.names a b c d e h i j k l m n f
+#------1----- 1
+#---------1-- 1
+#-----------0 1
+
+#.names a b c d e h i j k l m n f
+#--0--------- 1
+#------0----- 1
+#-------1---- 1
+
+#Example 1 SAT
+.names a b c d f1
+0--- 1
+-1-- 1
+--1- 1
+
+.names a b c d f2
+1--- 1
+--1- 1
+---1 1
+
+.names a b c d g
+1--- 1
+--1- 1
+---0 1
+
+.names a b c d f
+1--- 1
+--0- 1
+---1 1
+
+.names a b c d f1
+1--- 1
+--0- 1
+---0 1
+
+.names a b c d f1
+-0-- 1
+--0- 1
+---1 1
+
+.names a b c d f1
+0--- 1
+-1-- 1
+--0- 1
+
+.names a b c d f1
+0--- 1
+-0-- 1
+--1- 1
+
+.end 
